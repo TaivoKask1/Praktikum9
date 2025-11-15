@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #f9f8f5 url('https://www.transparenttextures.com/patterns/cubes.png') repeat;
+    color: #333;
+    line-height: 1.5;
+}
+
+header {
+    padding: 20px 40px;
+    background-color: #fff;
+    border-bottom: 2px solid #a68f7e;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    margin: 0 0 10px 0;
+    color: #5a4a3e;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 600;
+    color: #6b5848;
+    border: 2px solid transparent;
+    padding: 6px 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+nav a:hover {
+    border-color: #a68f7e;
+    background-color: #e8ded3;
+    color: #5a4a3e;
+}
+
+main {
+    display: flex;
+    max-width: 1100px;
+    margin: 40px auto;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.left-col {
+    flex: 3;
+}
+
+.galerii {
+    width: 100%;
+    height: 350px;
+    background-color: #d8c9bb;
+    border: 2px dashed #a68f7e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 16px;
+    color: #7e6d5f;
+}
+
+.right-col {
+    flex: 2;
+}
+
+.ikoonid {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.ikoonid a, .ikoonid div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #a68f7e;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.ikoonid a:hover {
+    background-color: #5a4a3e;
+}
+
+.aadress-info {
+    font-style: italic;
+    color: #7e6d5f;
+    font-size: 14px;
+}
+
+.hinnakiri-table {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.hinnakiri-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.hinnakiri-table th, 
+.hinnakiri-table td {
+    padding: 12px 15px;
+    border: 1px solid #a68f7e;
+    text-align: left;
+    font-size: 16px;
+}
+
+.hinnakiri-table th {
+    background-color: #e8ded3;
+    color: #5a4a3e;
+    font-weight: 600;
+}
+
+.hinnakiri-table tr:nth-child(even) {
+    background-color: #f4f1ed;
+}
+
+.Slaidid {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.map-container {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+    border: 2px solid #a68f7e;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.map-container img,
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
